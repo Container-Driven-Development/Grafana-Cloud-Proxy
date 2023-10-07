@@ -1,0 +1,4 @@
+In Lens Desktop, under cluster settings > Metrcis set PROMETHEUS SERVICE ADDRESS to:
+
+{{ .Release.Namespace }}/{{ include "grafana-cloud-proxy.fullname" . }}:{{ .Values.service.port }}
+
