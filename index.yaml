@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  grafana-cloud-proxy:
+  - apiVersion: v2
+    appVersion: v2.47.1
+    created: "2023-10-07T10:59:01.414201281Z"
+    description: A Helm chart for Kubernetes
+    digest: bf79487f2f1d530e9a7ec5567b1a000a0bbbd985f83f967e272c6026de8ed36a
+    name: grafana-cloud-proxy
+    type: application
+    urls:
+    - https://github.com/Container-Driven-Development/Grafana-Cloud-Proxy/releases/download/grafana-cloud-proxy-1.0.0/grafana-cloud-proxy-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-10-07T10:59:01.414205581Z"
